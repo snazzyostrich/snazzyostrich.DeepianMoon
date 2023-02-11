@@ -3,7 +3,7 @@
   "author": "snazzyostrich",
   "name": "Deepian Moon",
   "uniqueName": "snazzyostrich.DeepianMoon",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "owmlVersion": "2.7.2",
   "dependencies": [ "xen.NewHorizons" ]
 }
