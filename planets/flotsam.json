@@ -1,0 +1,50 @@
+{
+	"name": "Flotsam Wake",
+	"$schema": "https://raw.githubusercontent.com/xen-42/outer-wilds-new-horizons/main/NewHorizons/Schemas/body_schema.json",
+	"starSystem": "SolarSystem",
+	"Base": {
+	  "surfaceSize": 100,
+	  "surfaceGravity": 6,
+	  "hasMapMarker": true
+	},
+	"Orbit": {
+	  "semiMajorAxis": 2000,
+	  "primaryBody": "GIANTS_DEEP",
+	  "isMoon": true,
+	  "isTidallyLocked": true
+	},
+	"HeightMap": {
+		"minHeight": 100,
+		"maxHeight": 120,
+		"heightMap": "planets/assets/flotsam.png",
+		"textureMap": "planets/assets/flotsamcolor.png"
+	},
+	"Lava" : 
+	{
+		"size" : 100,
+		"curve": [
+			{"time":0, "value": 1.01},
+			{"time":22, "value": 1.12}
+		],
+		"tint" : {
+			"r" : 255,
+			"g" : 112,
+			"b" : 27,
+			"a" : 255
+		}
+	},
+	"Props": {
+		"geysers": [
+            {
+                "position": {"x": 72.7634, "y": 197.4859, "z": 216.0363},
+				"tint": {"r": 255, "g": 100, "b": 20, "a": 255}
+            }
+			,
+			{
+                "position": {"x": -84.9238, "y": 41.01407, "z": 34.61328},
+				"tint": {"r": 255, "g": 100, "b": 20, "a": 255}
+            }
+        ]
+	}
+}
+  
